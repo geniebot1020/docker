@@ -1,0 +1,12 @@
+version: '3.2' #docker-compose.yml
+services:
+  cas:
+    image: "joetse/hoi:tomcat7.0.84_jdk8u161"
+
+    ports: 
+        - 8080:8080
+    container_name: devcas5_tomcat7_jdk8u16
+
+    volumes:
+        - ./etc/cas:/etc/cas
+        - ./webapps/cas.war:/usr/local/tomcat/webapps/cas.war
