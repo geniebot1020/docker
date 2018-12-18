@@ -1,0 +1,26 @@
+2018-06-11 09:18:39 ERROR  : Error connecting to the server: could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+
+2018-06-11 09:18:47 ERROR  : Error connecting to the server: could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+
+2018-06-11 09:18:54 ERROR  : Error connecting to the server: could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+
+2018-06-11 09:21:15 ERROR  : ERROR:  function pg_get_function_result(oid) does not exist
+LINE 1: SELECT pr.oid, pr.xmin, pr.*, pg_get_function_result(pr.oid)...
+                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2018-06-11 09:21:17 ERROR  : ERROR:  function pg_get_function_result(oid) does not exist
+LINE 1: SELECT pr.oid, pr.xmin, pr.*, pg_get_function_result(pr.oid)...
+                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2018-06-11 09:22:36 ERROR  : ERROR:  syntax error at or near "inhrelname"
+LINE 2:     array_to_string(array_agg(inhrelname), ', ') inhrelname,
+                                                         ^
+2018-06-11 09:22:40 ERROR  : ERROR:  syntax error at or near "inhrelname"
+LINE 2:     array_to_string(array_agg(inhrelname), ', ') inhrelname,
+                                                         ^
