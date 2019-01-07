@@ -26,7 +26,7 @@ function clean() {
 
 function package() {
 	./mvnw clean package -T 5 "$@"
-	copy
+	#copy
 }
 
 function bootrun() {
